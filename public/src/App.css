@@ -1,0 +1,94 @@
+.form {
+  font-size:1.3rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  width:fit-content;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: left  ;
+  background-color: rgba(13, 13, 13, 0.435);
+border-radius: 15px;
+color: #171616;
+}
+input:focus{
+border-radius: 2px;
+border-top: none;
+}
+input {
+  font-size:small;
+  width: 15rem;
+  max-width: 100%;
+  color: #444;
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
+  
+
+}
+
+input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #596887;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 800;
+
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #414c5f;
+}
+
+.input{
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+}
+.submit{
+font-size: small;
+margin-left: auto ;
+text-align: center;
+  border: none;
+  background: #596887;
+  color: #fff;
+  padding: 2%;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.submit:hover{
+  background: #414c5f;
+}
+
+.fees{
+  padding: 2rem;
+  margin-left: 1rem;
+  text-align: center;
+}
+ h2{
+  padding-top: 0;
+}
+img{
+  border-radius: 1rem;
+}
+
+.messege{
+  margin: auto;
+  margin-top: 5px;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: rgb(236, 82, 82);
+  opacity: 0.8;
+  text-align: center;
+  width: max-content;
+}
+.images{
+  display: flex;
+  flex-direction: column;
+}
+
